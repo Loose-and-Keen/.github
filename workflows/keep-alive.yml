@@ -11,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Send request to Render API (and DB)
-        run: curl -s "https://chatcradt-api.onrender.com//health-check" > /dev/null
+        run: curl -s "https://chatcradt-api.onrender.com/health-check" > /dev/null
